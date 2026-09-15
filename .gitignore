@@ -427,3 +427,11 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+#VS Code specifics
+.vscode/
+.history/
+*.code-workspace
+
+#Exclude production secrets
+appsettings.json
